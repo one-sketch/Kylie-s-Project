@@ -1,11 +1,43 @@
+/* task 10: choose 2-4 colors for your theme and add them as font or background colors*/
+
 html, body {
   height: 100%;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: #FFA69E;
+  color: #861657;
   font-family: 'Roboto', sans-serif;
 }
 
+/* task 11: add flexbox to the div with a class named navBar.*/
+.navBar{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+/* task 12: style your nav bar so the links change color/style when your hover over them.*/
+a:hover{
+  color: #5F0A87;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* task 13: add at least 1 Google Font - either for the headers or paragraphs. Or both! Also, make sure it's linked in the html pages you want it used on!*/
+p{
+  font-family: 'Silkscreen', cursive;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: #BD4F6C;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+/* task 14: add a border to the images.*/
 .companies {
   display: flex;
   justify-content: space-around;
@@ -34,14 +66,23 @@ h1 {
   color: #fee975;
 }
 
+.learn{
+  display: flex;
+  justify-content: space-around
+}
+
 img {
   width: 400px;
+  
 }
 
-a {
-  color: #0080ff;
+.sims{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-a:hover {
-  color: #17d3ff;
+.hp{
+  border: 5px white solid;
 }
