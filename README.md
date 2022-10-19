@@ -36,7 +36,7 @@
 
 ## Wrap-Up
 
-- [ ] Save your changes and push to GitHub
+- [✅ ] Save your changes and push to GitHub
 - [ ] Submit your project link - the url in your web browser - to the Project Submission form.
 
 
